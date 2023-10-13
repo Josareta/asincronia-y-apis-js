@@ -1,4 +1,4 @@
-// Promise.allSettled()
+// Promise.allSettled() 
 
 const promise1 = new Promise((resolve) => setTimeout(() => resolve(1), 1000))
 const promise2 = new Promise((reject) => setTimeout(() => reject('Error en Promise 2'), 2000))
